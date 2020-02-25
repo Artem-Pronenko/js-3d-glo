@@ -55,22 +55,16 @@ window.addEventListener('DOMContentLoaded', () => {
 	// меню
 	const toggleMenu = () => menu.classList.toggle('active-menu');
 
-	menu.addEventListener('click', evt => {
-		let {target} = evt;
-		target.classList.contains('close-btn') ? toggleMenu() : false;
-		target.tagName === 'A' ? toggleMenu() : false;
+	body.addEventListener('click', ev => {
+		const target = ev.target;
+
+      if (target.matches('.close-btn, a, .menu') || target.closest('.menu')) {
+			toggleMenu();
+      } else if (!target.closest('menu') && menu.classList.contains('active-menu')) {
+			toggleMenu();
+		}
+		
 	});
-
-	btnMenu.addEventListener('click', toggleMenu);
-
-	//																	Усложненное
-	// body.addEventListener('click', ev => {
-	// 	let {target} = ev;
-	// 	target.classList.contains('close-btn') ? toggleMenu() : false;
-	// 	target.tagName === 'A' ? toggleMenu() : false;
-	// 	target = target.closest('.menu');
-	// 	target.classList.contains('menu') ? toggleMenu() : false;
-	// });
 
 
 	// popup
@@ -96,10 +90,10 @@ window.addEventListener('DOMContentLoaded', () => {
 			let {target} = evt;
 
 			if (target.classList.contains('popup-close')) {
-				popup.style.display = 'none'
+				popup.style.display = 'none';
 			} else {
 				target = target.closest('.popup-content');
-				!target ? popup.style.display = 'none' : false
+				!target ? popup.style.display = 'none' : false;
 			}
 
 		});
@@ -113,7 +107,7 @@ window.addEventListener('DOMContentLoaded', () => {
 		anchor.addEventListener('click', e => {
 			e.preventDefault();
 			const blockId = anchor.getAttribute('href');
-			document.querySelector('' + blockId).scrollIntoView({behavior: 'smooth', block: "start"})
+			document.querySelector('' + blockId).scrollIntoView({behavior: 'smooth', block: "start"});
 		});
 	}
 
@@ -190,7 +184,7 @@ window.addEventListener('DOMContentLoaded', () => {
 		};
 
 		const startSlide = (time = 2000) => {
-			interval = setInterval(autoPlaySlide, time)
+			interval = setInterval(autoPlaySlide, time);
 		};
 
 		const stopSlide = () => {
