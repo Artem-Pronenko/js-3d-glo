@@ -2,193 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed0fbea4-196f-43d1-94ce-6fac31031885" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/new_project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/fonts/Roboto-Bold.eot" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Roboto-Bold.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/fonts/Roboto-Bold.svg" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Roboto-Bold.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/fonts/Roboto-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Roboto-Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/fonts/Roboto-Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Roboto-Bold.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/fonts/Roboto-Bold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Roboto-Bold.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/fonts/Roboto-Light.eot" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Roboto-Light.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/fonts/Roboto-Light.svg" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Roboto-Light.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/fonts/Roboto-Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Roboto-Light.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/fonts/Roboto-Light.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Roboto-Light.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/fonts/Roboto-Light.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Roboto-Light.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/fonts/Roboto-Medium.eot" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Roboto-Medium.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/fonts/Roboto-Medium.svg" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Roboto-Medium.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/fonts/Roboto-Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Roboto-Medium.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/fonts/Roboto-Medium.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Roboto-Medium.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/fonts/Roboto-Medium.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Roboto-Medium.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/fonts/Roboto-Regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Roboto-Regular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/fonts/Roboto-Regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Roboto-Regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/fonts/Roboto-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Roboto-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/fonts/Roboto-Regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Roboto-Regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/fonts/Roboto-Regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Roboto-Regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/3dglo.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/3dglo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/calc.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/calc.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/command/command-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/command/command-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/command/command-1a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/command/command-1a.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/command/command-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/command/command-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/command/command-2a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/command/command-2a.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/command/command-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/command/command-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/command/command-3a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/command/command-3a.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/command/command-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/command/command-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/command/command-4a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/command/command-4a.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/command/command-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/command/command-5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/command/command-5a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/command/command-5a.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/command/command-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/command/command-6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/command/command-6a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/command/command-6a.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/command/cov-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/command/cov-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/command/cov-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/command/cov-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/companies/companies-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/companies/companies-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/companies/companies-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/companies/companies-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/companies/companies-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/companies/companies-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/companies/companies-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/companies/companies-4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/companies/companies-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/companies/companies-5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/companies/companies-6.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/companies/companies-6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/companies/companies-7.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/companies/companies-7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/connect/connect-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/connect/connect-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/connect/letter.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/connect/letter.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/connect/phone.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/connect/phone.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/connect/skype.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/connect/skype.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/connect/tele.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/connect/tele.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/connect/whatsapp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/connect/whatsapp.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/favicon/android-chrome-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/favicon/android-chrome-192x192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/favicon/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/favicon/apple-touch-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/favicon/browserconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/images/favicon/browserconfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/favicon/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/favicon/favicon-16x16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/favicon/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/favicon/favicon-32x32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/favicon/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/images/favicon/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/favicon/mstile-150x150.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/favicon/mstile-150x150.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/favicon/safari-pinned-tab.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/favicon/safari-pinned-tab.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/favicon/site.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/images/favicon/site.webmanifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/footer/academy.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/footer/academy.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/footer/face.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/footer/face.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/footer/google.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/footer/google.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/footer/insta.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/footer/insta.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/icons/left-arrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/icons/left-arrow.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/icons/right-arrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/icons/right-arrow.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/i«u«_2@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/i«u«_2@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/main-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/main-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/menu.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/menu.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/phone.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/phone.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/portfilio/portfolio-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/portfilio/portfolio-01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/portfilio/portfolio-02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/portfilio/portfolio-02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/portfilio/portfolio-03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/portfilio/portfolio-03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/portfilio/portfolio-04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/portfilio/portfolio-04.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/portfilio/portfolio-05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/portfilio/portfolio-05.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/portfilio/portfolio-06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/portfilio/portfolio-06.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/portfilio/portfolio-07.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/portfilio/portfolio-07.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/portfilio/portfolio-08.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/portfilio/portfolio-08.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/portfilio/portfolio-09.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/portfilio/portfolio-09.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/portfilio/portfolio-10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/portfilio/portfolio-10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/scroll.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/scroll.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/service/service-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/service/service-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/service/service-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/service/service-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/service/service-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/service/service-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/images/Лого_2@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/Лого_2@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/js/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/.eslintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/css/style.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/fonts/Roboto-Bold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/fonts/Roboto-Bold.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/fonts/Roboto-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/fonts/Roboto-Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/fonts/Roboto-Bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/fonts/Roboto-Light.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/fonts/Roboto-Light.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/fonts/Roboto-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/fonts/Roboto-Light.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/fonts/Roboto-Light.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/fonts/Roboto-Medium.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/fonts/Roboto-Medium.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/fonts/Roboto-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/fonts/Roboto-Medium.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/fonts/Roboto-Medium.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/fonts/Roboto-Regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/fonts/Roboto-Regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/fonts/Roboto-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/fonts/Roboto-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/fonts/Roboto-Regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/3dglo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/calc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/command/command-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/command/command-1a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/command/command-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/command/command-2a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/command/command-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/command/command-3a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/command/command-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/command/command-4a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/command/command-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/command/command-5a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/command/command-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/command/command-6a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/command/cov-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/command/cov-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/companies/companies-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/companies/companies-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/companies/companies-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/companies/companies-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/companies/companies-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/companies/companies-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/companies/companies-7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/connect/connect-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/connect/letter.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/connect/phone.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/connect/skype.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/connect/tele.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/connect/whatsapp.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/favicon/android-chrome-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/favicon/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/favicon/browserconfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/favicon/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/favicon/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/favicon/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/favicon/mstile-150x150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/favicon/safari-pinned-tab.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/favicon/site.webmanifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/footer/academy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/footer/face.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/footer/google.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/footer/insta.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/icons/left-arrow.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/icons/right-arrow.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/i«u«_2@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/main-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/menu.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/phone.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/portfilio/portfolio-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/portfilio/portfolio-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/portfilio/portfolio-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/portfilio/portfolio-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/portfilio/portfolio-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/portfilio/portfolio-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/portfilio/portfolio-07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/portfilio/portfolio-08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/portfilio/portfolio-09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/portfilio/portfolio-10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/scroll.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/service/service-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/service/service-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/service/service-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/images/Лого_2@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/lesson_18_hard/server.php" beforeDir="false" afterPath="$PROJECT_DIR$/server.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_18/server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,6 +13,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="lesson_19" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IgnoredFileRootStore">
@@ -252,6 +74,7 @@
       <workItem from="1582466128366" duration="29000" />
       <workItem from="1582569269483" duration="19000" />
       <workItem from="1582575706473" duration="9175000" />
+      <workItem from="1582651343333" duration="6513000" />
     </task>
     <servers />
   </component>
