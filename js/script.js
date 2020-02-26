@@ -58,12 +58,12 @@ window.addEventListener('DOMContentLoaded', () => {
 	body.addEventListener('click', ev => {
 		const target = ev.target;
 
-      if (target.matches('.close-btn, a, .menu') || target.closest('.menu')) {
+		if (target.matches('.close-btn, a, .menu') || target.closest('.menu')) {
 			toggleMenu();
-      } else if (!target.closest('menu') && menu.classList.contains('active-menu')) {
+		} else if (!target.closest('menu') && menu.classList.contains('active-menu')) {
 			toggleMenu();
 		}
-		
+
 	});
 
 
@@ -229,6 +229,36 @@ window.addEventListener('DOMContentLoaded', () => {
 
 	};
 	slider();
+
+
+	const changeImg = () => {
+		const commandPhotos = document.querySelectorAll('.command__photo');
+		let imgSrc;
+
+		commandPhotos.forEach(item => {
+			item.addEventListener('mouseover', () => {
+				imgSrc = item.src;
+				item.src = item.dataset.img;
+			});
+			item.addEventListener('mouseleave', () => item.src = imgSrc);
+		});
+
+	};
+	changeImg();
+
+
+	const validateCalc = () => {
+		const calcItem = document.querySelectorAll('.calc-item');
+
+		calcItem.forEach(item => {
+			item.addEventListener('input', () => {
+				const inputValue = item.value;
+				item.value = inputValue.replace(/\D/i, '');
+			});
+		});
+
+	};
+	validateCalc()
 
 
 });
