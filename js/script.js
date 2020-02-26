@@ -4,7 +4,7 @@ window.addEventListener('DOMContentLoaded', () => {
 	const timerHours = document.querySelector('#timer-hours'),
 		timerMinutes = document.querySelector('#timer-minutes'),
 		timerSeconds = document.querySelector('#timer-seconds'),
-		timerData = '27 february 2020',
+		timerData = '28 february 2020',
 		btnMenu = document.querySelector('.menu'),
 		body = document.body,
 		menu = document.querySelector('menu');
@@ -258,7 +258,49 @@ window.addEventListener('DOMContentLoaded', () => {
 		});
 
 	};
-	validateCalc()
+	validateCalc();
+
+	// калькулятор
+	const calc = (price = 100) => {
+		const calcBlock = document.querySelector('.calc-block'),
+			calcType = document.querySelector('.calc-type'),
+			calcSquare = document.querySelector('.calc-square'),
+			calcCount = document.querySelector('.calc-count'),
+			calcDay = document.querySelector('.calc-day'),
+			totalValue = document.querySelector('#total');
+
+		const countSum = () => {
+			let total = 0,
+				countValue = 1,
+				dayValue = 1;
+			const typeValue = calcType.options[calcType.selectedIndex].value,
+				squareValue = +calcSquare.value;
+
+			if (calcCount.value > 1) countValue += (calcCount.value - 1) / 10;
+
+			if (calcDay.value && calcDay.value < 5) {
+				dayValue *= 2;
+			} else if (calcDay.value && calcDay.value < 10) {
+				dayValue *= 1.5;
+			}
+
+			if (typeValue && squareValue) total = price * typeValue * squareValue * countValue * dayValue;
+
+			totalValue.textContent = total;
+		};
+
+		calcBlock.addEventListener('change', evt => {
+			const {target} = evt;
+
+			if (target === calcType || target === calcSquare ||
+				target === calcCount || target === calcDay) {
+				countSum();
+			}
+
+		});
+
+	};
+	calc(100);
 
 
 });

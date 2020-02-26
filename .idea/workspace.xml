@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ed0fbea4-196f-43d1-94ce-6fac31031885" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +13,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson_20" />
+        <entry key="$PROJECT_DIR$" value="lesson_21" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,7 +36,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
   <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/new_project/index.html" useBuiltInWebServerPort="true">
@@ -77,18 +76,43 @@
       <workItem from="1582651343333" duration="6513000" />
       <workItem from="1582667428275" duration="662000" />
       <workItem from="1582746188677" duration="752000" />
-      <workItem from="1582746969045" duration="2306000" />
+      <workItem from="1582746969045" duration="8557000" />
     </task>
+    <task id="LOCAL-00001" summary="Выполнил 21-й урок(валидация инпутов)">
+      <created>1582749555438</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582749555438</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Выполнил 21-й урок(валидация инпутов)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Выполнил 21-й урок(валидация инпутов)" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="277" y="56" key="SettingsEditor" timestamp="1582747167364">
+    <state x="391" y="6" key="CommitChangelistDialog2" timestamp="1582749554601">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="391" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1582749554601" />
+    <state x="295" y="99" key="SettingsEditor" timestamp="1582760556783">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="295" y="99" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1582760556783" />
     <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1582747167364" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1582749647304">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1582749647304" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1582758003742">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1582758003742" />
     <state x="431" y="145" key="search.everywhere.popup" timestamp="1582581895324">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
