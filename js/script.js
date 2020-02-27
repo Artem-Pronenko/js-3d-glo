@@ -253,7 +253,7 @@ window.addEventListener('DOMContentLoaded', () => {
 		calcItem.forEach(item => {
 			item.addEventListener('input', () => {
 				const inputValue = item.value;
-				item.value = inputValue.replace(/\D/i, '');
+				item.value = inputValue.replace(/^\W/i, '');
 			});
 		});
 
