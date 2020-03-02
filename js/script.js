@@ -57,13 +57,12 @@ window.addEventListener('DOMContentLoaded', () => {
 
 	body.addEventListener('click', ev => {
 		const target = ev.target;
-
+		//validForm(document.querySelectorAll('input[placeholder="Ваш номер телефона"]'));
 		if (target.matches('.close-btn, a, .menu') || target.closest('.menu')) {
 			toggleMenu();
 		} else if (!target.closest('menu') && menu.classList.contains('active-menu')) {
 			toggleMenu();
 		}
-
 	});
 
 
@@ -246,10 +245,21 @@ window.addEventListener('DOMContentLoaded', () => {
 	};
 	changeImg();
 
+	//Валидация форм
+	const validForm = (input) => {
+		input.forEach(item => {
+			item.addEventListener('input', () => {
+				const inputValue = item.value;
+				if (item.classList.contains('form-phone')) {
+					item.value = inputValue.replace(/[^0-9+]/i, '');
+				} else if (item.classList.contains('form-name') || item.classList.contains('mess')) {
+					item.value = inputValue.replace(/[^а-яё ]/i, '');
+				}
+			});
+		});
 
-	const validateCalc = () => {
+		// валидация калькулятора
 		const calcItem = document.querySelectorAll('.calc-item');
-
 		calcItem.forEach(item => {
 			item.addEventListener('input', () => {
 				const inputValue = item.value;
@@ -258,7 +268,10 @@ window.addEventListener('DOMContentLoaded', () => {
 		});
 
 	};
-	validateCalc();
+	validForm(document.querySelectorAll('.form-phone'));
+	validForm(document.querySelectorAll('.form-name'));
+	validForm(document.querySelectorAll('.mess'));
+
 
 	// калькулятор
 	const calc = (price = 100) => {
@@ -301,6 +314,57 @@ window.addEventListener('DOMContentLoaded', () => {
 
 	};
 	calc(100);
+
+	// отправка ajax-form
+	const sendForm = () => {
+		const errorMessage = 'Что-то пошло не так...',
+			loadMessage = 'Загрузка...',
+			successMessage = 'Спасибо! Мы скоро с вами свяжемся!',
+			form = document.querySelectorAll('form'),
+			statusMessage = document.createElement('div');
+
+		form.forEach(item => {
+			item.addEventListener('submit', (event) => {
+				processingForm(event, item)
+			});
+		});
+
+
+		const processingForm = (event, item) => {
+			event.preventDefault();
+			item.appendChild(statusMessage);
+			statusMessage.textContent = loadMessage;
+			statusMessage.style.color = '#fff';
+			const formData = new FormData(item);
+			let body = {};
+			for (let value of formData.entries()) body[value[0]] = value[1];
+			item.querySelectorAll('input').forEach(item => item.value = '');
+
+			postData(body, () => {
+				statusMessage.textContent = successMessage;
+			}, () => {
+				statusMessage.textContent = errorMessage;
+			});
+		};
+
+		const postData = (body, outputData, errorData) => {
+			const request = new XMLHttpRequest();
+			request.addEventListener('readystatechange', () => {
+				if (request.readyState !== 4) return;
+				if (request.status === 200) {
+					outputData();
+				} else {
+					errorData(request.status);
+				}
+			});
+			request.open('POST', './server.php');
+			request.setRequestHeader('Content-Type', 'application/json');
+			request.send(JSON.stringify(body));
+
+		};
+
+	};
+	sendForm();
 
 
 });
