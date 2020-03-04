@@ -2,17 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e014a346-fb79-4daa-ba9e-fab190cfd412" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/anchorScroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/burgerMen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/calc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/changeImg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/countTimer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/sendForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/tabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/togglePopUp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/validForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson_25" />
+        <entry key="$PROJECT_DIR$" value="lesson_26" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,6 +56,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
   <component name="RunManager">
@@ -86,6 +108,7 @@
       <workItem from="1583331311406" duration="557000" />
       <workItem from="1583331956394" duration="817000" />
       <workItem from="1583333066177" duration="197000" />
+      <workItem from="1583338478475" duration="4076000" />
     </task>
     <task id="LOCAL-00001" summary="Выполнил 21-й урок(валидация инпутов)">
       <created>1582749555438</created>
@@ -115,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583333120902</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Выполнил 26-й урок(Fetch)">
+      <created>1583338517874</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583338517874</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,26 +156,27 @@
     <MESSAGE value="Выполнил 23-й урок(валидатор + добавил округление)" />
     <MESSAGE value="Выполнил 24-й урок" />
     <MESSAGE value="Выполнил 25-й урок(Promise)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Выполнил 25-й урок(Promise)" />
+    <MESSAGE value="Выполнил 26-й урок(Fetch)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Выполнил 26-й урок(Fetch)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582910957696">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1582910957696" />
-    <state x="408" y="12" width="840" height="812" key="CommitChangelistDialog2" timestamp="1583333119663">
+    <state x="408" y="12" width="840" height="812" key="CommitChangelistDialog2" timestamp="1583338517080">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="408" y="12" width="840" height="812" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583333119663" />
+    <state x="408" y="12" width="840" height="812" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583338517080" />
     <state x="295" y="99" key="SettingsEditor" timestamp="1582760556783">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="295" y="99" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1582760556783" />
     <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1582747167364" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1583333133834">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1583338528403">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1583333133834" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1583338528403" />
     <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583192850452">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
