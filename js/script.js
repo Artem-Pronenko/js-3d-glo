@@ -329,7 +329,6 @@ window.addEventListener('DOMContentLoaded', () => {
 			});
 		});
 
-
 		const processingForm = (event, item) => {
 			event.preventDefault();
 			item.appendChild(statusMessage);
@@ -340,26 +339,26 @@ window.addEventListener('DOMContentLoaded', () => {
 			for (let value of formData.entries()) body[value[0]] = value[1];
 			item.querySelectorAll('input').forEach(item => item.value = '');
 
-			postData(body, () => {
-				statusMessage.textContent = successMessage;
-			}, () => {
-				statusMessage.textContent = errorMessage;
-			});
+			postData(body)
+				.then(() => statusMessage.textContent = successMessage)
+				.catch(() => statusMessage.textContent = errorMessage)
 		};
 
-		const postData = (body, outputData, errorData) => {
-			const request = new XMLHttpRequest();
-			request.addEventListener('readystatechange', () => {
-				if (request.readyState !== 4) return;
-				if (request.status === 200) {
-					outputData();
-				} else {
-					errorData(request.status);
-				}
+		const postData = (body) => {
+			return new Promise((resolve, reject) => {
+				const request = new XMLHttpRequest();
+
+				request.addEventListener('readystatechange', () => {
+					if (request.readyState !== 4) return;
+					request.status === 200 ? resolve() : reject();
+
+				});
+
+				request.open('POST', './server.php');
+				request.setRequestHeader('Content-Type', 'application/json');
+				request.send(JSON.stringify(body));
+
 			});
-			request.open('POST', './server.php');
-			request.setRequestHeader('Content-Type', 'application/json');
-			request.send(JSON.stringify(body));
 
 		};
 
