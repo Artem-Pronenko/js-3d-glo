@@ -1171,3 +1171,30 @@ footer .web {
 .portfolio-btn {
     border: none;
 }
+
+.show-modal-data {
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    color: #1b1e21;
+    box-shadow: inset 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    width: 0px;
+    transition: width 0.2s;
+    height: 80px;
+    position: fixed;
+    top: 4px;
+    left: 5px;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
