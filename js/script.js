@@ -268,9 +268,9 @@ window.addEventListener('DOMContentLoaded', () => {
 			calcCount = document.querySelector('.calc-count'),
 			calcDay = document.querySelector('.calc-day'),
 			totalValue = document.querySelector('#total');
-
-		const countSum = () => {
-			let total = 0,
+		let total = 0;
+		const countSum = (newTotal) => {
+			let
 				countValue = 1,
 				dayValue = 1;
 			const typeValue = calcType.options[calcType.selectedIndex].value,
@@ -284,17 +284,24 @@ window.addEventListener('DOMContentLoaded', () => {
 				dayValue *= 1.5;
 			}
 
-			if (typeValue && squareValue) total = price * typeValue * squareValue * countValue * dayValue;
+			if (typeValue && squareValue) total = Math.ceil(price * typeValue * squareValue * countValue * dayValue);
 
-			totalValue.textContent = total;
+			setInterval(() => {
+				if (newTotal < total) {
+					newTotal++;
+					totalValue.textContent = newTotal;
+				} else if (newTotal > total) {
+					newTotal--;
+					totalValue.textContent = newTotal;
+				}
+			}, 0)
 		};
-
 		calcBlock.addEventListener('change', evt => {
 			const {target} = evt;
-
+			let newTotal = total;
 			if (target === calcType || target === calcSquare ||
 				target === calcCount || target === calcDay) {
-				countSum();
+				countSum(newTotal);
 			}
 
 		});
