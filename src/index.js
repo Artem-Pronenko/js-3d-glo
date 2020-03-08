@@ -1,5 +1,5 @@
 'use strict';
-const timerData = '6 March 2020';
+const timerData = '10 March 2020';
 
 import countTimer from './modules/countTimer';
 import burgerMen from './modules/burgerMen';

@@ -26,7 +26,9 @@ const sendForm = () => {
 	const processingForm = (event, item) => {
 		event.preventDefault();
 		document.body.appendChild(statusMessage);
+		statusMessage.classList.add('show-modal-data');
 		statusMessage.textContent = loadMessage;
+		dataInterval = requestAnimationFrame(dataAnimate);
 		const formData = new FormData(item);
 		let body = {};
 		for (let value of formData.entries()) body[value[0]] = value[1];
@@ -37,10 +39,7 @@ const sendForm = () => {
 				if (response.status !== 200) {
 					throw new Error('status network not 200');
 				}
-				statusMessage.classList.add('show-modal-data');
 				statusMessage.textContent = successMessage;
-				dataInterval = requestAnimationFrame(dataAnimate)
-
 			})
 			.catch(error => {
 				statusMessage.classList.add('show-modal-data');
