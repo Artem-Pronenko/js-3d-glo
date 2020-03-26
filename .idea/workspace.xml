@@ -3500,10 +3500,7 @@
       <change afterPath="$PROJECT_DIR$/node_modules/yargs/locales/zh_TW.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/yargs/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/yargs/yargs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sliderCarousel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -3604,6 +3601,7 @@
       <workItem from="1584886297438" duration="13074000" />
       <workItem from="1584980137381" duration="4202000" />
       <workItem from="1585097678113" duration="5419000" />
+      <workItem from="1585183117864" duration="256000" />
     </task>
     <task id="LOCAL-00001" summary="Выполнил 21-й урок(валидация инпутов)">
       <created>1582749555438</created>
@@ -3675,7 +3673,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583675525518</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Выполнил последний урок. слайдер в ООП стиле">
+      <created>1585183294963</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1585183294963</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -3691,7 +3696,8 @@
     <MESSAGE value="правки с отправкой(скрытием) смс выполнил" />
     <MESSAGE value="правки с отправкой(скрытием) +валидация телефона смс выполнил" />
     <MESSAGE value="правки от второго куратора" />
-    <option name="LAST_COMMIT_MESSAGE" value="правки от второго куратора" />
+    <MESSAGE value="Выполнил последний урок. слайдер в ООП стиле" />
+    <option name="LAST_COMMIT_MESSAGE" value="Выполнил последний урок. слайдер в ООП стиле" />
   </component>
   <component name="WindowStateProjectService">
     <state x="517" y="250" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1584980607420">
@@ -3702,11 +3708,15 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1582910957696" />
-    <state x="408" y="12" width="840" height="812" key="CommitChangelistDialog2" timestamp="1583675512453">
+    <state x="408" y="12" width="840" height="812" key="CommitChangelistDialog2" timestamp="1585183278161">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="408" y="12" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1583342576447" />
-    <state x="408" y="12" width="840" height="812" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583675512453" />
+    <state x="408" y="12" width="840" height="812" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585183278161" />
+    <state x="207" y="77" key="DiffContextDialog" timestamp="1585183242735">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="207" y="77" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1585183242734" />
     <state x="549" y="155" key="FileChooserDialogImpl" timestamp="1584980606545">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -3716,11 +3726,11 @@
     </state>
     <state x="295" y="99" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1582760556783" />
     <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584989612085" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1583675531332">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1585183376634">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1583342591052" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1583675531332" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585183376634" />
     <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583192850452">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
