@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="663db4d3-9fb9-450c-a08b-39b0b523088d" name="Default Changelist" comment="Выполнил последний урок. слайдер в ООП стиле">
       <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +115,7 @@
       <workItem from="1585183117864" duration="256000" />
       <workItem from="1585265391053" duration="307000" />
       <workItem from="1585400788512" duration="37000" />
+      <workItem from="1585939099799" duration="244000" />
     </task>
     <task id="LOCAL-00001" summary="Выполнил 21-й урок(валидация инпутов)">
       <created>1582749555438</created>
@@ -210,7 +212,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
