@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="663db4d3-9fb9-450c-a08b-39b0b523088d" name="Default Changelist" comment="правки с отправкой(скрытием) смс выполнил">
+    <list default="true" id="663db4d3-9fb9-450c-a08b-39b0b523088d" name="Default Changelist" comment="Выполнил последний урок. слайдер в ООП стиле">
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/acorn" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/acorn.cmd" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/acorn.ps1" afterDir="false" />
@@ -80,7 +80,6 @@
       <change afterPath="$PROJECT_DIR$/node_modules/@webassemblyjs/ast/esm/transform/denormalize-type-references/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/@webassemblyjs/ast/esm/transform/wast-identifier-to-index/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/@webassemblyjs/ast/esm/traverse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/@webassemblyjs/ast/esm/types/basic.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/@webassemblyjs/ast/esm/types/nodes.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/@webassemblyjs/ast/esm/types/traverse.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/@webassemblyjs/ast/esm/utils.js" afterDir="false" />
@@ -3500,101 +3499,8 @@
       <change afterPath="$PROJECT_DIR$/node_modules/yargs/locales/zh_TW.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/yargs/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/yargs/yargs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/new_project.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/.eslintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/css/style.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/fonts/Roboto-Bold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/fonts/Roboto-Bold.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/fonts/Roboto-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/fonts/Roboto-Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/fonts/Roboto-Bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/fonts/Roboto-Light.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/fonts/Roboto-Light.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/fonts/Roboto-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/fonts/Roboto-Light.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/fonts/Roboto-Light.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/fonts/Roboto-Medium.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/fonts/Roboto-Medium.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/fonts/Roboto-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/fonts/Roboto-Medium.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/fonts/Roboto-Medium.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/fonts/Roboto-Regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/fonts/Roboto-Regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/fonts/Roboto-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/fonts/Roboto-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/fonts/Roboto-Regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/3dglo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/calc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/command/command-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/command/command-1a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/command/command-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/command/command-2a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/command/command-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/command/command-3a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/command/command-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/command/command-4a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/command/command-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/command/command-5a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/command/command-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/command/command-6a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/command/cov-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/command/cov-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/companies/companies-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/companies/companies-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/companies/companies-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/companies/companies-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/companies/companies-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/companies/companies-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/companies/companies-7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/connect/connect-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/connect/letter.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/connect/phone.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/connect/skype.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/connect/tele.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/connect/whatsapp.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/favicon/android-chrome-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/favicon/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/favicon/browserconfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/favicon/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/favicon/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/favicon/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/favicon/mstile-150x150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/favicon/safari-pinned-tab.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/favicon/site.webmanifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/footer/academy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/footer/face.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/footer/google.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/footer/insta.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/icons/left-arrow.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/icons/right-arrow.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/i«u«_2@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/main-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/menu.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/phone.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/portfilio/portfolio-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/portfilio/portfolio-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/portfilio/portfolio-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/portfilio/portfolio-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/portfilio/portfolio-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/portfilio/portfolio-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/portfilio/portfolio-07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/portfilio/portfolio-08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/portfilio/portfolio-09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/portfilio/portfolio-10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/scroll.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/service/service-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/service/service-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/service/service-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/images/Лого_2@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_17/server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_17/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@webassemblyjs/ast/esm/types/basic.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -3634,6 +3540,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -3696,6 +3608,8 @@
       <workItem from="1584980137381" duration="4202000" />
       <workItem from="1585097678113" duration="5419000" />
       <workItem from="1585183117864" duration="256000" />
+      <workItem from="1585265391053" duration="307000" />
+      <workItem from="1585400788512" duration="37000" />
     </task>
     <task id="LOCAL-00001" summary="Выполнил 21-й урок(валидация инпутов)">
       <created>1582749555438</created>
@@ -3774,7 +3688,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585183294963</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Выполнил последний урок. слайдер в ООП стиле">
+      <created>1585183918409</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1585183918409</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -3802,11 +3723,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1582910957696" />
-    <state x="408" y="12" width="840" height="812" key="CommitChangelistDialog2" timestamp="1585183791367">
+    <state x="408" y="12" width="840" height="812" key="CommitChangelistDialog2" timestamp="1585184043925">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="408" y="12" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1583342576447" />
-    <state x="408" y="12" width="840" height="812" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585183791367" />
+    <state x="408" y="12" width="840" height="812" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585184043925" />
     <state x="207" y="77" key="DiffContextDialog" timestamp="1585183787823">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -3824,11 +3745,11 @@
     </state>
     <state x="295" y="99" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1582760556783" />
     <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584989612085" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1585183485686">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1585183942850">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1583342591052" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585183485686" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585183942850" />
     <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583192850452">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -3842,10 +3763,10 @@
     </state>
     <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1582758003742" />
     <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1584886521970" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1584906320141">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585265584802">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="431" y="145" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1582581895324" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1584906320141" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585265584802" />
   </component>
 </project>
